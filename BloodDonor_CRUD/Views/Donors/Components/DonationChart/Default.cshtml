@@ -1,0 +1,55 @@
+﻿@model List<Donation>
+
+<table class="table table-responsive table-hover table-bordered table-striped">
+
+	<thead>
+		<tr>
+			<th>
+				Donation Place
+			</th>
+			<th>
+				Amount Of Donation
+			</th>
+			<th>
+				Last Donation
+			</th>
+			<th>
+				Donation Frequency
+			</th>
+		</tr>
+	</thead>
+
+	<tbody>
+
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					@item.DonationPlace
+				</td>
+				<td>
+					@item.AmountOfDonation
+				</td>
+				<td>
+					<input asp-for="@item.LastDonation" class="form-control" readonly />
+				</td>
+				<td>
+					<input asp-for="@item.YearsSinceLastDonation" class="form-control" readonly />
+				</td>
+			</tr>
+		}
+
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="4">
+				</br>
+
+				<h6>Total Donors  = @ViewBag.Total and No of Donation is @ViewBag.Count</h6>
+
+				</br>
+			</td>
+		</tr>
+	</tfoot>
+
+</table>
