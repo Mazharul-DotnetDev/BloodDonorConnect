@@ -3,20 +3,18 @@
 Project Name: Blood Donor Management
 
 ## Description:
--- A simple Blood Donor Management system implemented using ASP.NET Core MVC and Entity Framework Core. 
--- The project follows a Master-details pattern and includes CRUD operations. 
--- It utilizes Stored Procedures, Aggregate Functions, and View Components for efficient data management.
+A simple Blood Donor Management system implemented using ASP.NET Core MVC and Entity Framework Core. The project follows a Master-details pattern and includes CRUD operations. It utilizes Stored Procedures, Aggregate Functions, and View Components for efficient data management.
 
 ## Key Features:
-   -- Keep track of donors and donations easily.
-   --  Add, view, update, and delete records (CRUD operations).
-   -- Organize data effectively with the master-details pattern.
-   -- Works with SQL Server or compatible database systems.
+   Keep track of donors and donations easily.
+Add, view, update, and delete records (CRUD operations).
+Organize data effectively with the master-details pattern.
+Works with SQL Server or compatible database systems.
 
  ## Built With:
-   -- ASP.NET Core MVC
-   -- Entity Framework Core
-   -- .NET 8
+   ASP.NET Core MVC, 
+Entity Framework Core, 
+.NET 8
 
  ## Getting Started:
     ## What you'll need:
