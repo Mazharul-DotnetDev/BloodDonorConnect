@@ -16,7 +16,7 @@
 
 **Get started in minutes:**
 
-1. **Grab the code:** Copy Lifeblood from GitHub: [https://github.com/](https://github.com/): [https://github.com/]([https://github.com/](https://github.com/Mazharul-DotnetDev/BloodDonorConnect.git))
+1. **Grab the code:** Copy Lifeblood from GitHub: (https://github.com/Mazharul-DotnetDev/BloodDonorConnect.git)
 2. **Install tools:**
     * Get Visual Studio 2022 (or similar).
     * Install .NET 8 SDK.
